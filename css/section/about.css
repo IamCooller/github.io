@@ -1,0 +1,45 @@
+.about{
+    margin: 0;
+}
+
+h2{
+    text-align: center;
+    padding-top: 190px;
+    padding-bottom: 50px;
+    color:#fff;
+    font-family: 'Francois One', sans-serif;
+    font-size: 40px;
+}
+
+.title{
+    background-color: white;
+    border-radius: 23px;
+    display: flex;
+    margin-bottom: 110px;
+}
+
+.title_photo{
+    padding: 50px 35px 60px 50px;
+}
+
+.title_photo img{
+    border-radius: 23px;
+}
+
+.title_text{
+    display: block;
+    text-align: left;
+    margin-top: 25%;
+}
+
+h3{
+    font-family: 'Francois One', sans-serif;
+    font-size: 30px;
+}
+
+.title_text p{
+ font-size: 14px;
+ line-height: 21px;
+ margin-top: 20px;
+ width: 385px;
+}

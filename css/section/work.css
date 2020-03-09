@@ -1,0 +1,61 @@
+.works{
+   display: flex;
+   justify-content: center;
+}
+
+.buttons{
+    display: flex;
+    height: 30px;
+}
+
+.scope{
+    display: flex;
+
+}
+.slick-next  img{
+    transform: rotate(180deg);
+
+}
+.slick-next{
+ position: relative;
+ left: 1050px;
+ bottom: 351px;
+}
+.slick-prev{
+    position: relative;
+    left: 1000px;
+    bottom: 11px;
+}
+
+.video-gallery{
+    list-style-type: none;
+}
+.video-gallery li{
+    display: inline;
+}
+#html5-videos{
+    margin-right: 50px;
+    margin-top: 50px;
+}
+.photoArrow{
+    position: relative;
+    top:500px;
+}
+.arrowText{
+    position: relative;
+    right: 70px;
+    top:50px;
+    
+    color: white;
+}
+
+.works_img{
+    border-radius: 20px;
+    object-fit: cover;
+    height: 300px;
+}
+
+.works_img:hover{
+    box-shadow: 0 0 10px #000;
+    border: 2px solid purple;
+}

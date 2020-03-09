@@ -1,0 +1,29 @@
+.credits{
+    display: flex;
+    justify-content: space-between;
+    padding-left: 25px; 
+    padding-right: 25px;
+    
+    color: #fff;
+    
+}
+
+.credits p{
+    font-family: 'Dosis', sans-serif;
+    font-size: 12px;
+   
+}
+.credits_left{
+    text-align: center;
+    position: relative;
+    margin-top: 130px;
+    bottom: 25px;
+}
+
+.footer{
+    background: url('/img/footer.png')no-repeat center;
+    background-size: cover;    
+}
+.credits_right{
+    padding-top: 100px;
+}

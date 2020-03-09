@@ -1,0 +1,54 @@
+
+.header{
+    background: url('/img/back.jpg');
+    margin: 0;
+}
+
+.beanie{
+    display: flex;
+    justify-content: space-between;
+    padding: 25px 50px;
+}
+nav a {
+    color: #fff !important;
+    text-decoration: none !important;
+}
+
+nav ul{
+	margin: 0;
+	padding: 0;
+}
+
+nav li {
+	list-style-position: inside;
+	font: 15px 'Francois One', sans-serif;
+	padding: 5px 0;
+}
+
+.top-menu li {
+	display: inline-block;
+    padding: 0 15px;
+	margin: 0;
+}
+
+.top-menu li.active {
+	color:#fff;
+}
+
+.top-menu a {
+	color: #fff;
+}
+
+.top-menu a::after{
+    content: '';
+    display: block;
+    width: 100%;
+    background-color: #0094FF;
+    height: 1px;
+    transform: scale(0);
+    transition: all .3s;
+}
+
+.top-menu a:hover::after{
+    transform: scale(1);
+}
