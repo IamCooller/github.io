@@ -1,221 +1,68 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="css/style.css">
-    <link rel="stylesheet" href="dist/css/lightgallery.css" /> 
-    <link rel="stylesheet" href="dist/css/lg-transitions.css">
-    <link rel="stylesheet"  href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
-        integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
-        <link rel="stylesheet" href="dist/css/lightslider.css">
-        <link href="https://vjs.zencdn.net/4.12/video-js.css" rel="stylesheet">
-
-    <link href="https://fonts.googleapis.com/css?family=Dosis:200,400|Francois+One&display=swap" rel="stylesheet">
-    <title>Moution</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+  <link href="http://allfont.ru/allfont.css?fonts=franklin-gothic-demi-cond" rel="stylesheet" type="text/css" />
+  
+  
+  <title>CyberFoxes</title>
 </head>
-
 <body>
-   
-            <header class="header" id="header">
-                <div class="beanie fixed-top">
-                    <div class="logo">
-                        <a href=""><img src="img/x_glitch_2020-2-19_20-30-38.gif" alt="logo" width="60"></a>
-                    </div>
-                    <nav>
-                        <ul class="top-menu">
-                            <li class="active"><a href="#header">ГЛАВНАЯ</a></li>
-                            <li><a href="#about">О СЕБЕ</a></li>
-                            <li><a href="#work">МОИ РАБОТЫ</a></li>
-                            <li><a href="#contact"">КОНТАКТЫ</a></li>
-                        </ul>
-                    </nav>
-                </div>
-                <!-- /.beanie -->
-                <div class="container">
-        
-                    <div class="main">
-                        <div class="preview">
-                            <img src="img/Intro_1600-2.gif" alt="intro" width="640" class="img_preview">
-                            <a href="#contact" class="btn">Связаться со мной</a>
-                        </div>
-                        <!-- /.preview -->
-                        <div class="photo">
-                            <img src="img/triangle_PNG44.png" alt="photo" width="500" class="img_photo">
-                        </div>
-                        <!-- /.photo -->
-                    </div>
-                    <!-- /.main -->
-                    <div class="move">
-                        <span></span>
-                        <span></span>
-                        <span></span>
-                    </div>
-                    <!-- /.move -->
-                </div>
-            </header>
-        
-            <section class="about" id="about">
-                <div class="container">
-        
-                    <h2> О СЕБЕ </h2>
-        
-                    <div class="title">
-                        
-                        <div class="title_photo">
-                            <img src="img/me.jpg" alt="me" width=500>
-                        </div>
-                        <div class="title_text">
-                           <h3>Я рад тебя видеть!</h3> 
-                           <p> Привет, меня звать Игорь Власов. Я професиональный Motion Designer и я могу сделать для тебя любую
-                            работу. Напиши мне сообщение на почту и я сразу тебе отвечу. Поверь, тебе понравится! ^_^ </p>
-                        </div>
-                    </div>
-        
-        
-                </div>
-        
-        
-            </section>
+
+ <!-- Навигация! её не трогай, а то поломаешь -->
+   <nav id="header menu" class="navMenu fixed-top">
+    <div class="navList">
+      <div class="nav_left">
+        <ul class="nav_left__list">
+      <li data-menuanchor="firstPage" class="active"><a href="#firstPage">Главная</a></li>
+      <li data-menuanchor="secondPage"><a href="#secondPage">О нас</a></li>
+      </ul>
+      </div>
+      
+      <div class="nav_right">
+        <ul class="nav_right__list">
+        <li data-menuanchor="thirdPage"><a href="#thirdPage">Наши работы</a></li>
+        <li data-menuanchor="fourthPage"><a href="#fourthPage">Контакты</a></li>
+      </ul>
+      </div>
+    </div>
+      
+     
     
-        <section class="skill">
-            <div class="container">
-                <h2>ПОЧЕМУ СТОИТ ВЫБРАТЬ ИМЕННО МЕНЯ?</h2>
-                <img src="img/skills.png" alt="skills">
-            </div>
-        </section>
+  </nav>
 
-        <section class="work" id="work">
-            <div class="container">
-                <h2>МОИ РАБОТЫ</h2>                
-                <div class="works lightgallery works__slider" >
-                    <a href="img/worksFirst.jpg">
-                        <img src="img/worksFirst.jpg" width="350" class="works_img" />
-                    </a>
-                    <a href="img/worksSecond.jpg">
-                        <img src="img/worksSecond.jpg"  width="350" class="works_img" />
-                    </a>
-                    <a href="img/worksThirdjpg.jpg">
-                        <img src="img/worksThirdjpg.jpg"  width="350" class="works_img" />
-                    </a>
-                    <a href="img/worksFourth.jpg">
-                        <img src="img/worksFourth.jpg"  width="350" class="works_img" />
-                    </a>
-                    <a href="img/worksFifth.jpg">
-                        <img src="img/worksFifth.jpg"  width="350" class="works_img" />
-                    </a>
-                    <a href="img/worksSix.jpg">
-                        <img src="img/worksSix.jpg"  width="350" class="works_img" />
-                    </a>
-                    <a href="img/worksSeven.jpg.jpg">
-                        <img src="img/worksSeven.jpg.jpg"  width="350" class="works_img" />
-                    </a>
-                    <a href="img/worksEight.jpg">
-                        <img src="img/worksEight.jpg"   width="350" class="works_img" />
-                    </a>
-                    <a href="img/worksnNine.jpg">
-                        <img src="img/worksnNine.jpg"  width="350" class="works_img" />
-                    </a>
-                    <a href="img/worksnNine.jpg">
-                        <img src="img/worksTen.jpg"  width="350" class="works_img" />
-                    </a>
-                    <a href="img/worksnNine.jpg">
-                        <img src="img/worksEleven.jpg"  width="350"  class="works_img"/>
-                    </a>
-                  </div>                                                                                               
-               </div>
-                
-                    <div style="display:none;" id="video1">
-                        <video class="lg-video-object lg-html5 video-js vjs-default-skin" controls preload="none">
-                            <source src="videos/firstVideo.mp4" type="video/mp4" class="works_img">
-                             Your browser does not support HTML5 video.
-                        </video>
-                    </div>
-                    <div style="display:none;" id="video2">
-                        <video class="lg-video-object lg-html5" controls >
-                            <source src="videos/videoSecond.mp4" type="video/mp4" class="works_img">
-                             Your browser does not support HTML5 video.
-                        </video>
-                    </div>
-                    <div class="works" id="html5-videos">
-                        <ul class="video-gallery">
-                            <li data-poster="video-poster1.jpg" data-html="#video1" >
-                                <a href="#"><img src="videos/firsVideo.png" width="550" class="works_img"/></a>
-                            </li>
-                            <li data-poster="video-poster2.jpg" data-html="#video2" >
-                               <a href="#"><img src="videos/secondVideo.png" width="550" class="works_img"/></a>
-                            </li>
-                          </ul>
-                    </div>
-                    
 
-                
-        </section>
-       
+  <!-- Тут начинается сам сайт -->
+  <div id="fullpage">
+    <header class="section"> 
+        <div class="main_img">
+          <img src="assets/img/ellipse.png" alt="ellipse" class="ellipse_one">
+          <img src="assets/img/triangle.png" alt="triangle" class="triangle">
+          <img src="assets/img/fox.png" alt="fox" class="fox">
+      </div>
 
-        <section class="contact" id="contact">
-            <div class="container">
-                <h2>КОНТАКТЫ</h2>
-                <div class="forms">
-                    <form action="#" class="form">
-                        <input type="text" placeholder="Имя" name="name" class="input" required>                               
-                        <input type="email" placeholder="E-mail" name="email" class="input" required>                                       
-                        <textarea type="text" placeholder="Сообщение" name="text" class="input input_text" required>  </textarea>                 
-                    <button type="submit" class="btn btn-form">Связаться со мной</button> 
-                </form>
-                </div>      
-            </div>
-        </section>
+      <div class="main_title">
+        <h1>CyberFoxes</h1>
+        <p class="title">Добро пожаловать</p>
+        <a href="#" class="btn">Связаться</a>
+      </div>
 
-        <footer class="footer">
-            <div class="credits">
-                <div class="credits_left">
-                    <a href="#"><img src="img/x_glitch_2020-2-19_20-30-38.gif" alt="" width="50px"></a>
-                    <p>+380 71 326 2054</p>
-                </div>
-                <div class="credits_right">
-                    <a href="#"><img src="img/insta.png" alt="" width="50px"></a>
-                    <a href="#"><img src="img/vk.png" alt="" width="50px"></a>
-                </div>
-                
-            </div>
+    </header><!-- Тут первая страница -->
+    <div class="section container"> Второй раздел </div><!-- Тут вторая страница -->
+    <div class="section container"> Третий раздел </div><!-- Тут третья страница -->
+    <div class="section container"> Четвертый раздел </div><!-- Тут четвертая страница -->
+  </div>
+  <!-- Конец сайта -->
 
-    
-        </footer>
-        <script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
-        <script type="text/javascript" src="https://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-mousewheel/3.1.13/jquery.mousewheel.min.js"></script>
-        <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
-        <script src="dist/js/lightgallery-all.js"></script>
-        <script src="dist/js/lightslider.js"></script>
-        <script src="dist/js/lg-video.js"></script>
-        <script src="https://vjs.zencdn.net/4.12/video.js"></script>
 
-        <script type="text/javascript">
-         $(document).ready(function() {
-        $(".lightgallery").lightGallery();
-        $('.works__slider').slick({
-            infinite: true,
-            slidesToShow: 3,
-            slidesToScroll: 3,
-            mobileFirst: true,
-            prevArrow: '<a class="slick-prev" href="#"><img src="img/arrow.png" height="40"/></a>',
-            nextArrow: '<a class="slick-next" href="#"><img src="img/arrow.png" height="40"/></a>'
-            
-            
-}); 
-$(".beanie").on("click","a", function (event) {
-        event.preventDefault();
-        var id  = $(this).attr('href'),
-            top = $(id).offset().top;
-        $('body,html').animate({scrollTop: top}, 1500);
-    });
-    $('.video-gallery').lightGallery({
-    }); 
-    });
-        </script>
+
+
+
+<script src="assets/js/fullpage/fullpage.min.js"></script> 
+<script src="assets/js/jquery/jquery-3.4.1.min.js"></script> 
+<script src="app.js"></script> 
 </body>
-
 </html>
